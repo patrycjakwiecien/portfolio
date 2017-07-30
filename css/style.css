@@ -1,6 +1,52 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
-    background-color: #19820B;
+    margin: 0;
+    background-color: white;
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
 }
+
+main-nav {
+    position: fixed;
+    background-color: white;
+}
+
+
+nav#main-nav>ul>li.menu-item {
+    display: inline-block;
+    list-style: none;
+
+  
+}
+
+nav#main-nav>ul>li > a {
+    color: #1ac056;
+    font-weight: 300;
+    text-decoration: none;
+
+  
+}
+
+
+#main-nav>ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav#main-nav>ul>li > a:hover {
+    color:#291f1a;
+}
+
+
+
+
+
+
+
+
+
+
