@@ -94,6 +94,7 @@ header{
 
 #about {
     background-color: #f9fcfe;
+    overflow: hidden;
 }
 
 #about h2{
@@ -117,6 +118,28 @@ header{
     max-width: 100%;
     border: 15px #fff solid;
     border-radius: 15%;
+}
+
+#skills>p{
+    text-align: center;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons> figure {
+    display: inline-block;
+    float: left;
+    margin:0;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#skills #skills-icons> figure img {
+    margin-bottom: 15px;
+    
 }
     
 
