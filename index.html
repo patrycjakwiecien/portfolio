@@ -1,65 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-<!--    link-czcionki-->
-    
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-  
-<!--link style css  -->
 
-	<link rel="stylesheet" href="css/style.css">
-	
-<!--	link responsywność-->
-	
-	<link rel="stylesheet" href="css/responsive.css">
-   
+    <!--    link-czcionki-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+
+    <!--link style css  -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--	link responsywność-->
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
     <title>Portfolio</title>
 </head>
+
 <body>
-  
-<!--  menu nawigacyjne-->
-   
-   <nav id="main-nav">
+
+    <!--  menu nawigacyjne-->
+
+    <nav id="main-nav">
+        <label for="drop" class="toggle">
+          Menu</label><input type="checkbox" id="drop" />
         <ul>
             <li class="menu-item"><a href="#about">O mnie</a></li>
             <li class="menu-item"><a href="#skills">Umiejętności</a></li>
-                 <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
             <li class="menu-item"><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
-    
-<!--    header-->
-  
-  <header id="header">
-      <div class="header-content">
+
+    <!--    header-->
+
+    <header id="header">
+        <div class="header-content">
             <h1>Jan<span> Nowak</span></h1>
-        <h2>Front-End Developer</h2>
-      </div>
+            <h2>Front-End Developer</h2>
+        </div>
     </header>
-    
-<!--    section-->
-  
-  <section id="about">
-      <h2>O mnie</h2>
-      <figure><img src="img/jan-nowak.jpg" alt="jan-nowak"></figure>
-      <article class="about-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore fugiat magni distinctio animi in eius rerum cum, dicta recusandae porro cumque dolores aliquam quibusdam, necessitatibus ratione, aut, possimus quidem.</p></article></section>
-          
-<!--          skills-->
-   
-   <section id="skills">
-      <h2>Moje Umiejętności</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore fugiat magni distinctio animi in eius rerum cum, dicta recusandae porro cumque dolores aliquam quibusdam, necessitatibus ratione, aut, possimus quidem.</p>
-          <div id="skills-icons">
-              <figure><img src="icons/css3.png" alt="css3"></figure>
-                <figure><img src="icons/html5.png" alt="html5"></figure>
-                  <figure><img src="icons/jquery.png" alt="jquery"></figure>
-                    <figure><img src="icons/js.png" alt="js"></figure>
-          </div>
-          </section>
-    
+
+    <!--    section-->
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <figure><img src="img/jan-nowak.jpg" alt="jan-nowak"></figure>
+        <article class="about-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore fugiat magni distinctio animi in eius rerum cum, dicta recusandae porro cumque dolores aliquam quibusdam, necessitatibus ratione, aut, possimus quidem.</p>
+        </article>
+    </section>
+
+    <!--          skills-->
+
+    <section id="skills">
+        <h2>Moje Umiejętności</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit inventore fugiat magni distinctio animi in eius rerum cum, dicta recusandae porro cumque dolores aliquam quibusdam, necessitatibus ratione, aut, possimus quidem.</p>
+        <div id="skills-icons">
+            <figure><img src="icons/css3.png" alt="css3"></figure>
+            <figure><img src="icons/html5.png" alt="html5"></figure>
+            <figure><img src="icons/jquery.png" alt="jquery"></figure>
+            <figure><img src="icons/js.png" alt="js"></figure>
+        </div>
+    </section>
+
+    <!--    moje porfolio-->
+
+    <section id="portfolio">
+        <h2>Moje Portfolio</h2>
+
+        <div class="portfolio-items" id="moje-portfolio">
+           
+            <div class="single-portfolio-item" id="portfolio-item-1">
+               
+                <div class="single-portfolio-item-mask" id="portfolio-item-mask-1">
+                
+                    <div class="single-portfolio-item-mask-content" id="portfolio-item-mask-content-1">
+                 
+                 <div class="single-portfolio-item-mask-content-inner" id="portfolio-item-mask-content-inner-1">
+                     <h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sunt sequi similique beatae quae exercitationem suscipit.</p>
+                     <h4>Lorem ipsum dolor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magni maxime eius molestias.</p>
+                     <i class="fa fa-link" aria-hidden="true"></i>
+                 </div></div></div></div>
+                 
+            
+            <div class="single-portfolio-item" id="portfolio-item-2">
+                <div class="single-portfolio-item-mask" id="portfolio-item-mask-2">
+                
+                    <div class="single-portfolio-item-mask-content" id="portfolio-item-mask-content-2">
+                    
+                    <div class="single-portfolio-item-mask-content-inner" id="portfolio-item-mask-content-inner-2"><h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sunt sequi similique beatae quae exercitationem suscipit.</p>
+                     <h4>Lorem ipsum dolor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magni maxime eius molestias.</p>
+                     <i class="fa fa-link" aria-hidden="true"></i></div>
+                </div></div></div>
+                
+                <div class="single-portfolio-item" id="portfolio-item-3">
+                    <div class="single-portfolio-item-mask" id="portfolio-item-mask-3">
+                        <div class="single-portfolio-item-mask-content" id="portfolio-item-mask-content-3">
+                            <div class="single-portfolio-item-mask-content-inner" id="portfolio-item-mask-content-inner-3"><h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sunt sequi similique beatae quae exercitationem suscipit.</p>
+                     <h4>Lorem ipsum dolor</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magni maxime eius molestias. </p>
+                     <i class="fa fa-link" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+               
+                
+                
+    </section>
+
+    <!--    contact-->
+
+    <section id="contact">
+        <div class="contact-data">
+            <h2>Patrycja<span>Kwiecien</span></h2>
+            <br/>
+            <address>ul.filtrowa 75/17 <br/>
+              02-032 Warszawa <br/><br/> tel.666 555 444 <br/> 
+              email: <a href="patrycjaapril@gmail.com">patrycjaapril@gmail.com</a> </address>
+            <br/>
+            <div class="contact-social-icons">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+
+
+
+        </div>
+        <div class="contact-form">
+            <form action="" method="post">
+                <input type="text" placeholder="Imie i nazwisko">
+                <input type="text" placeholder="email">
+                <textarea rows="10" cols="30" placeholder="tresc wiadomosci">
+Tresc wiadomosci
+</textarea>
+                <br/>
+                <input type="submit" value="wyślij">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">copyright &copy; Patrycja Kwiecien</p>
+
+    </footer>
+
 </body>
+
 </html>
